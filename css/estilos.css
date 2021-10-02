@@ -5,7 +5,8 @@ body {
 }
 
 a {
-    text-decoration: none; /* Esta propiedad sirve para quitar la línea a un link*/
+    text-decoration: none;
+    /* Esta propiedad sirve para quitar la línea a un link*/
 }
 
 .contenedor {
@@ -17,15 +18,18 @@ a {
 h2 {
     color: rgb(14 4 54);
     text-align: center;
-    text-transform: uppercase;/* Esta propiedad sirve para transformar texto de minuscula a mayuscula */
+    text-transform: uppercase;
+    /* Esta propiedad sirve para transformar texto de minuscula a mayuscula */
 }
 
 #inicio {
     height: 100vh;
     background: linear-gradient(90deg, rgba(2, 0, 36, 0.322), rgba(15, 15, 16, 0.329) 35%, rgba(122, 126, 127, 0.432)), url(images/bg-inicio.jpg);
     display: flex;
-    justify-content: center; /* Esta propiedad sirve para ajustar un contenedor de forma horizontal */
-    align-items: center; /* Esta propiedad sirve para ajustar un contenedor de forma vertical */
+    justify-content: center;
+    /* Esta propiedad sirve para ajustar un contenedor de forma horizontal */
+    align-items: center;
+    /* Esta propiedad sirve para ajustar un contenedor de forma vertical */
     background-position: center center;
     background-repeat: no-repeat;
 }
