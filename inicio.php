@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +16,7 @@
         <div class="contenedor">
             <form action="consulta.php" method="post">
                 <h2>Iniciar Sesión</h2>
-
+                
                 <label for="usuario">Usuario: </label><br>
                 <input type="text" id="usuario" name="usuario"><br><br>
 
