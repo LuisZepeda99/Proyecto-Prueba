@@ -16,10 +16,7 @@
             <div id="registros-seleccion" class="contenedor">
                 <a href="formulario_propietario.php">
                     <p> Registrarme como <br> <span>Propietario</span></p>
-                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="460.298px" height="460.297px"
-                        viewBox="0 0 460.298 460.297" style="enable-background:new 0 0 460.298 460.297;"
-                        xml:space="preserve">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="460.298px" height="460.297px" viewBox="0 0 460.298 460.297" style="enable-background:new 0 0 460.298 460.297;" xml:space="preserve">
                         <g>
                             <g>
                                 <path d="M230.149,120.939L65.986,256.274c0,0.191-0.048,0.472-0.144,0.855c-0.094,0.38-0.144,0.656-0.144,0.852v137.041
@@ -69,11 +66,8 @@
 
                 <a href="formulario_gestor.php">
                     <p> Registrarme como <br> <span>Gestor Inmobiliario</span></p>
-                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 293.75 293.75"
-                        style="enable-background:new 0 0 293.75 293.75;" xml:space="preserve">
-                        <path
-                            d="M247.176,0.506c-0.915-0.342-1.862-0.487-2.801-0.487V0h-195v0.02c-0.939,0-1.887,0.145-2.801,0.487
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 293.75 293.75" style="enable-background:new 0 0 293.75 293.75;" xml:space="preserve">
+                        <path d="M247.176,0.506c-0.915-0.342-1.862-0.487-2.801-0.487V0h-195v0.02c-0.939,0-1.887,0.145-2.801,0.487
 	                    C43.447,1.675,41.375,4.662,41.375,8v77.849c0,1.928,0.696,3.791,1.961,5.247l27.5,31.651c1.529,1.759,3.737,2.753,6.038,2.753
 	                    c0.307,0,0.615-0.018,0.924-0.053c2.624-0.305,4.929-1.886,6.158-4.224l20.21-38.438l33.396,36.398L90.96,234.247
                     	c-1.206,2.978-0.514,6.388,1.758,8.66l48.5,48.5c1.563,1.562,3.609,2.343,5.657,2.343s4.095-0.781,5.657-2.343l48.5-48.5
@@ -115,6 +109,7 @@
                 </a>
             </div>
         </main>
+        <a href="inicio.php" id="link-volver">Volver al Inicio</a>
     </div>
 </body>
 

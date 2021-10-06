@@ -1,7 +1,8 @@
 <?php
 session_start();
 
-if (isset($_SESSION['usu'])) {
+if (isset($_SESSION['propietario'])) {
+
 ?>
     <!DOCTYPE html>
     <html>
@@ -12,9 +13,10 @@ if (isset($_SESSION['usu'])) {
     </head>
 
     <body>
-        <div id="">
-            <h4>Bienvenido Usuario: <?php echo strtoupper($_SESSION['usu']); ?></h4><br>
+        <div id="cont-principal">
+            <h4>Bienvenido Usuario: <?php echo strtoupper($_SESSION['propietario']); ?></h4><br>
 
+            <p><a href="acceso_form.php">Registros</a></p>
             <p><a href="cerrar_sesion.php">Cerrar Sesión</a></p>
         </div>
     </body>
