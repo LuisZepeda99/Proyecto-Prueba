@@ -43,12 +43,12 @@ include("functions/funciones.php");
                 <label for="telefono">Ingrese Teléfono: </label>
                 <input type="text" name="telefono" id="telefono">
 
-                <label for="usuario">Ingrese Nombre de Usuario: </label><br>
-                <input type="text" name="usuario" id="usuario">
-
                 <label for="n_propiedad">Ingrese Número de Propiedad: </label><br>
                 <input type="text" name="n_propiedad" id="n_propiedad">
 
+                <label for="usuario">Ingrese Nombre de Usuario: </label><br>
+                <input type="text" name="usuario" id="usuario">
+                
                 <button type="submit" id="btn">Registrarme</button>
                 <br><br>
                 <a href="acceso_form.php" id="link-propietario">Volver Atrás</a>
@@ -59,59 +59,6 @@ include("functions/funciones.php");
             </div>
         </div>
     </div>
-
-    <section>
-        <table id="tabla-propietario">
-            <tr>
-                <th>Rut</th>
-                <th>Nombre Completo</th>
-                <th>Fecha de Nacimiento</th>
-                <th>Correo</th>
-                <th>Sexo</th>
-                <th>Telefono</th>
-                <th>N° Propiedad</th>
-                <th>Usuario</th>
-                <th>Estado</th>
-            </tr>
-            <?php
-            $sql = "SELECT * FROM propietarios";
-            $result = mysqli_query(conectar(), $sql);
-            while ($datos = mysqli_fetch_array($result)) {
-            ?>
-                <tr>
-                    <td>
-                        <?php echo $datos['rut']; ?>
-                    </td>
-                    <td>
-                        <?php echo $datos['nombre']; ?>
-                    </td>
-                    <td>
-                        <?php echo $datos['fecha_nacimiento']; ?>
-                    </td>
-                    <td>
-                        <?php echo $datos['correo']; ?>
-                    </td>
-                    <td>
-                        <?php echo $datos['sexo']; ?>
-                    </td>
-                    <td>
-                        <?php echo $datos['telefono']; ?>
-                    </td>
-                    <td>
-                        <?php echo $datos['n_propiedad']; ?>
-                    </td>
-                    <td>
-                        <?php echo $datos['usuario']; ?>
-                    </td>
-                    <td>
-                        <?php echo $datos['estado']; ?>
-                    </td>
-                </tr>
-            <?php
-            }
-            ?>
-        </table>
-    </section>
 </body>
 
 </html>

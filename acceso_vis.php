@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if (isset($_SESSION['admin'])) {
+if (isset($_SESSION['administrador'])) {
 
 ?>
 
@@ -9,18 +9,18 @@ if (isset($_SESSION['admin'])) {
     <html lang="es">
 
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link>
-        <title>Seleccione usuarios a Visualizar</title>
+        <title>Seleccion de Usuarios</title>
+        <link rel="stylesheet" href="css/estilos.css">
     </head>
 
     <body>
-        <h4>Bienvenido Usuario: <?php echo strtoupper($_SESSION['admin']); ?></h4><br>
+        <div id="cont-acceso" class="contenedor">
+            <h4>Bienvenido Usuario: <?php echo strtoupper($_SESSION['administrador']); ?></h4><br>
 
-        <p><a href="tabla_gestores.php">Gestores Inmobiliarios</a></p>
-        <p><a href="tabla_propietarios.php">Propietarios</a></p>
+            <p><a href="tabla_propietarios.php">Acceso a Propietarios</a></p>
+            <p><a href="tabla_gestores.php">Acceso a Gestores</a></p>
+            <p><a href="cerrar_sesion.php">Cerrar Sesión</a></p>
+        </div>
     </body>
 
     </html>

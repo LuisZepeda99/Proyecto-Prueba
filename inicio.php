@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +17,7 @@
         <div class="contenedor">
             <form action="consulta.php" method="post">
                 <h2>Iniciar Sesión</h2>
-                
+
                 <label for="usuario">Usuario: </label><br>
                 <input type="text" id="usuario" name="usuario"><br><br>
 
@@ -27,7 +28,17 @@
                     <button type="submit" id="btn">Iniciar</button>
                 </div><br>
 
-                <a href="acceso_form.php" id="link-inicio">Registrarme</a>
+                <a href="acceso_form.php" id="link-inicio">Registrarme</a><br>
+
+                <?php
+                if (isset($_GET['error'])) {
+                ?>
+                    <div id="error">
+                        Error al intentar ingresar..
+                    </div>
+                <?php
+                }
+                ?>
             </form>
         </div>
     </div>

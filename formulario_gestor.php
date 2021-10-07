@@ -12,7 +12,7 @@ include("functions/funciones.php");
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
-    <script src="js/validaciones.js"></script>
+    <script type="text/javascript" src="js/validaciones.js"></script>
 </head>
 
 <body>
@@ -45,30 +45,15 @@ include("functions/funciones.php");
                 <label for="telefono">Ingrese Teléfono: </label>
                 <input type="text" name="telefono" id="telefono">
 
-                <label for="certificado">Ingrese Certificado de Antecedentes: </label>
-                <input type="file" name="certificado" id="certificado">
-    
+                <label for="usuario">Ingrese Nombre de Usuario: </label><br>
+                <input type="text" name="usuario" id="usuario">
+                
                 <button type="submit" id="btn-gestor" onclick="validar_gestor();">Registrarme</button>
                 <br><br>
                 <a href="acceso_form.php" id="link-gestor">Volver Atrás</a>
             </form>
         </div>
     </div>
-
-    <section>
-        <table id="tabla-gestor">
-            <tr>
-                <th>Rut</th>
-                <th>Nombre Completo</th>
-                <th>Fecha de Nacimiento</th>
-                <th>Correo</th>
-                <th>Sexo</th>
-                <th>Telefono</th>
-                <th>Usuario</th>
-                <th>Estado</th>
-            </tr>
-        </table>
-    </section>
 </body>
 
 </html>

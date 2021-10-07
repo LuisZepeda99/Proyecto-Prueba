@@ -11,4 +11,4 @@ $sql = "INSERT INTO propietarios SET rut='".$_POST['rut']."', nombre='" . $_POST
 , estado=1";
 mysqli_query($con, $sql);
 
-header('Location:formulario_propietario.php');
+header('Location:tabla_propietarios.php');
