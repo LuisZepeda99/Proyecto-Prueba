@@ -1,5 +1,6 @@
 <?php
 include("functions/funciones.php");
+
 ?>
 
 <!DOCTYPE html>
@@ -12,13 +13,13 @@ include("functions/funciones.php");
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
-    <script type="text/javascript" src="js/validaciones.js"></script>
+    
 </head>
 
 <body>
     <div id="form-g">
         <div id="contenedor-g" class="contenedor">
-            <form id="form-gestor" action="registrar2.php" method="post" name="form-gestor" enctype="multipart/form-data">
+            <form id="form-gestor" action="registrar2.php" name="form1" method="post">
                 <h1>Registro de Gestor</h1>
 
                 <label for="rut">Ingrese Rut: </label>
@@ -37,7 +38,7 @@ include("functions/funciones.php");
                 <input type="password" name="clave" id="clave">
 
                 <label for="sexo">Seleccione Sexo: </label>
-                <select name="sexo">
+                <select name="sexo" id="select-gestor">
                     <option value="masculino">Masculino</option>
                     <option value="femenino">Femenino</option>
                 </select><br><br>
@@ -47,13 +48,14 @@ include("functions/funciones.php");
 
                 <label for="usuario">Ingrese Nombre de Usuario: </label><br>
                 <input type="text" name="usuario" id="usuario">
-                
-                <button type="submit" id="btn-gestor" onclick="validar_gestor();">Registrarme</button>
+
+                <input type="submit" value="Registrame" id="btn-gestor">
                 <br><br>
-                <a href="acceso_form.php" id="link-gestor">Volver Atrás</a>
+                <a href="acceso_form.php" id="link-gestor">Volver Atrás</a> | <a href="principal2.php" id="volver-principal2">Volver a Principal</a>
             </form>
         </div>
     </div>
+    <script src="js/otro.js"></script>
 </body>
 
 </html>

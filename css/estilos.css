@@ -182,11 +182,19 @@ a {
 /********** ACCESO VISTA DE REGISTROS **********/
 
 #cont-acceso {
-    background: rgba(65, 105, 225, 0.801);
-    height: 30vh;
-    padding: 1rem;
-    border-radius: .5rem;
-    margin-top: 20px;
+    height: 100vh;
+    background: linear-gradient(40deg, rgba(2, 0, 36, 0.322), rgba(15, 15, 16, 0.329) 35%, rgba(122, 126, 127, 0.432)), url(https://cdn.pixabay.com/photo/2015/03/26/10/34/houses-691586_1920_1280.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#contenedor-acceso {
+    font-weight: 600;
+    padding: 100px;
+    background-color: rgba(28, 96, 199, 0.822);
+    padding-top: 40px;
+    border-radius: 10px;
 }
 
 #cont-acceso h4 {
@@ -203,6 +211,74 @@ a {
     padding-left: 25px;
     margin: 20px;
     line-height: 40px;
+}
+
+/****************** PRINCIPAL 1 ***********************/
+
+#cont-principal {
+    height: 100vh;
+    background: linear-gradient(40deg, rgba(2, 0, 36, 0.322), rgba(15, 15, 16, 0.329) 35%, rgba(122, 126, 127, 0.432)), url(https://cdn.pixabay.com/photo/2015/03/26/10/34/houses-691586_1920_1280.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#contenedor-principal {
+    font-weight: 600;
+    padding: 100px;
+    background-color: rgba(28, 96, 199, 0.822);
+    padding-top: 40px;
+    border-radius: 10px;
+}
+
+#cont-principal h4 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#cont-principal a {
+    color: white;
+    float: left;
+    list-style: none;
+    padding-left: 126px;
+    margin: 20px;
+    line-height: 30px;
+}
+
+/****************** PRINCIPAL 2 ***********************/
+
+#cont-principal2 {
+    height: 100vh;
+    background: linear-gradient(40deg, rgba(2, 0, 36, 0.322), rgba(15, 15, 16, 0.329) 35%, rgba(122, 126, 127, 0.432)), url(https://cdn.pixabay.com/photo/2015/03/26/10/34/houses-691586_1920_1280.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#contenedor-principal2 {
+    font-weight: 600;
+    padding: 100px;
+    background-color: rgba(28, 96, 199, 0.822);
+    padding-top: 40px;
+    border-radius: 10px;
+}
+
+#cont-principal2 h4 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#cont-principal2 a {
+    color: white;
+    float: left;
+    list-style: none;
+    padding-left: 126px;
+    margin: 20px;
+    line-height: 30px;
 }
 
 /********** FORMULARIO PROPIETARIO ************/
@@ -262,11 +338,47 @@ a {
 }
 
 #form-propietario label {
+    color: white;
     margin-bottom: 2rem;
+}
+
+#form-propietario #select-propietario {
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    font-size: 13px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 #form-propietario #link-propietario {
     color: white;
+}
+
+#form-propietario #volver-principal {
+    color: #fff;
+}
+
+#btn-propietario {
+    background-color: rgb(53, 197, 40);
+    color: rgb(15, 12, 12);
+    width: 150px;
+    height: 35px;
+    border: 1px solid rgba(14, 12, 12, 0.808);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#form-propietario #btn-propietario:hover {
+    background-color: rgb(63, 211, 100);
+    color: rgb(240, 231, 231);
+    -webkit-box-shadow: 0px 9px 17px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 9px 17px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 9px 17px 4px rgba(0, 0, 0, 0.75);
+    transition: all .4s;
 }
 
 /********** FORMULARIO GESTOR ************/
@@ -286,7 +398,7 @@ a {
     align-items: center;
     justify-content: space-between;
     gap: 3rem;
-    max-width: 65rem;
+    max-width: 35rem;
 }
 
 #form-gestor {
@@ -313,14 +425,50 @@ a {
 }
 
 #form-gestor label {
+    color: white;
     margin-bottom: 2rem;
+}
+
+#form-gestor #select-gestor {
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    font-size: 13px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 #form-gestor #link-gestor {
     color: white;
 }
 
-/************* Tabla Gestores ****************/
+#form-gestor #volver-principal2 {
+    color: #fff;
+}
+
+#btn-gestor {
+    background-color: rgb(53, 197, 40);
+    color: rgb(15, 12, 12);
+    width: 150px;
+    height: 35px;
+    border: 2px solid rgba(14, 12, 12, 0.808);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#form-gestor #btn-gestor:hover {
+    background-color: rgb(63, 211, 100);
+    color: rgb(240, 231, 231);
+    -webkit-box-shadow: 0px 9px 17px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 9px 17px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 9px 17px 4px rgba(0, 0, 0, 0.75);
+    transition: all .4s;
+}
+
+/************* TABLA GESTORES ****************/
 
 #tabla-g {
     font-family: Arial, Helvetica, sans-serif;
@@ -351,7 +499,7 @@ a {
     color: rgb(15, 14, 14);
 }
 
-/************* Tabla Propietarios ****************/
+/************* TABLA PROPIETARIOS ****************/
 
 #tabla-p {
     font-family: Arial, Helvetica, sans-serif;
@@ -381,4 +529,3 @@ a {
     background-color: #48a4e0;
     color: rgb(15, 14, 14);
 }
-

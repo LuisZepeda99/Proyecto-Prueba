@@ -12,7 +12,7 @@
 <body>
     <h2>Usted no puede ingresar, debe autenticarse</h2><br>
 
-    <p><a href="inicio.php">Volver</a></p>
+    <p><a href="inicio.php">Volver al Inicio</a></p>
 </body>
 
 </html>

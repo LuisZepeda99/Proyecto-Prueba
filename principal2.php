@@ -9,15 +9,17 @@ if (isset($_SESSION['gestor'])) {
 
     <head>
         <title>Principal</title>
-        <link rel="stylesheet" type="text/css" href="">
+        <link rel="stylesheet" href="css/estilos.css">
     </head>
 
     <body>
-        <div id="cont-principal">
-            <h4>Bienvenido Usuario: <?php echo strtoupper($_SESSION['gestor']); ?></h4><br>
+        <div id="cont-principal2">
+            <div id="contenedor-principal2" class="contenedor">
+                <h4>Bienvenido Usuario: <?php echo strtoupper($_SESSION['gestor']); ?></h4><br>
 
-            <p><a href="acceso_form.php">Registros</a></p>
-            <p><a href="cerrar_sesion.php">Cerrar Sesión</a></p>
+                <p><a href="formulario_gestor.php">Registros</a></p>
+                <p><a href="cerrar_sesion.php">Cerrar Sesión</a></p>
+            </div>
         </div>
     </body>
 

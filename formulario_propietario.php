@@ -35,7 +35,7 @@ include("functions/funciones.php");
                 <input type="password" name="clave" id="clave">
 
                 <label for="sexo">Seleccione Sexo: </label>
-                <select name="sexo">
+                <select name="sexo" id="select-propietario">
                     <option value="masculino">Masculino</option>
                     <option value="femenino">Femenino</option>
                 </select><br><br>
@@ -49,9 +49,9 @@ include("functions/funciones.php");
                 <label for="usuario">Ingrese Nombre de Usuario: </label><br>
                 <input type="text" name="usuario" id="usuario">
                 
-                <button type="submit" id="btn">Registrarme</button>
+                <button type="submit" id="btn-propietario">Registrarme</button>
                 <br><br>
-                <a href="acceso_form.php" id="link-propietario">Volver Atrás</a>
+                <a href="acceso_form.php" id="link-propietario">Volver Atrás</a> | <a href="principal.php" id="volver-principal">Volver a Principal</a>
             </form>
 
             <div>
