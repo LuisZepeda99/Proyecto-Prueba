@@ -27,7 +27,7 @@ if (isset($_SESSION['gestor']) || $_SESSION['administrador']) {
                 <th>Fecha de Nacimiento</th>
                 <th>Correo</th>
                 <th>Sexo</th>
-                <th>Telefono</th>
+                <th>Teléfono</th>
                 <th>Usuario</th>
                 <th>Estado</th>
             </tr>
@@ -50,7 +50,7 @@ if (isset($_SESSION['gestor']) || $_SESSION['administrador']) {
             }
             ?>
         </table><br>
-        <a href="acceso_vis.php">Volver Atrás</a> | <a href="formulario_gestor.php">Volver al Regsitro</a>
+        <a href="acceso_vis.php">Volver Atrás</a> | <a href="formulario_gestor.php">Volver al Registro</a>
     </body>
 
     </html>

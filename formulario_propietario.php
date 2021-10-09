@@ -11,12 +11,13 @@ include("functions/funciones.php");
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/validaciones.js"></script>
 </head>
 
 <body>
     <div id="form-p">
         <div id="contenedor-p" class="contenedor">
-            <form id="form-propietario" action="registrar.php" method="post">
+            <form id="form-propietario" action="registrar.php" name="form2" method="post">
                 <h1>Registro de Propietario</h1>
 
                 <label for="rut">Ingrese Rut: </label>
@@ -49,13 +50,14 @@ include("functions/funciones.php");
                 <label for="usuario">Ingrese Nombre de Usuario: </label><br>
                 <input type="text" name="usuario" id="usuario">
                 
-                <button type="submit" id="btn-propietario">Registrarme</button>
+                <input type="button" value="Registrarme" id="btn-propietario" onclick="validarPropietario();">
                 <br><br>
                 <a href="acceso_form.php" id="link-propietario">Volver Atrás</a> | <a href="principal.php" id="volver-principal">Volver a Principal</a>
+                | <a href="tabla_propietarios.php" id="link-propietario">Ver Tabla</a>
             </form>
 
             <div>
-                <h2>Publica tus propiedades en línea</h2>
+                <h2>Publica tus Propiedades en línea</h2>
             </div>
         </div>
     </div>

@@ -2,7 +2,6 @@
 include("functions/funciones.php");
 
 ?>
-
 <!DOCTYPE html>
 <html>
 
@@ -13,7 +12,7 @@ include("functions/funciones.php");
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
-    
+    <script src="js/validaciones.js"></script>
 </head>
 
 <body>
@@ -49,13 +48,13 @@ include("functions/funciones.php");
                 <label for="usuario">Ingrese Nombre de Usuario: </label><br>
                 <input type="text" name="usuario" id="usuario">
 
-                <input type="submit" value="Registrame" id="btn-gestor">
+                <input type="button" value="Registrarme" id="btn-gestor" onclick="validarGestor();">
                 <br><br>
                 <a href="acceso_form.php" id="link-gestor">Volver Atrás</a> | <a href="principal2.php" id="volver-principal2">Volver a Principal</a>
+                | <a href="tabla_gestores.php" id="link-gestor">Ver Tabla</a>
             </form>
         </div>
     </div>
-    <script src="js/otro.js"></script>
 </body>
 
 </html>
