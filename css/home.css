@@ -1,0 +1,17 @@
+.contenedor-home{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70rem;
+    margin: 0 auto;
+}
+
+.card{
+    margin-top: 3rem;
+}
+
+/* 
+.centrar-boton-qsm{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+} */

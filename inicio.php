@@ -10,13 +10,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
-    <script src="js/validaciones.js"></script>
+    <script>
+        function validar() {
+
+            if (document.index.usuario.value == "") {
+                alert("Debe Ingresar el Usuario");
+                document.index.usuario.focus();
+                return false;
+            }
+
+            if (document.index.clave.value == "") {
+                alert("Debe Ingresar la Contraseña");
+                document.index.clave.focus();
+                return false;
+            }
+
+            document.index.submit();
+        }
+    </script>
 </head>
 
 <body>
     <div id="inicio">
         <div class="contenedor">
-            <form action="consulta.php" id="form-inicio" name="inicio-f" method="post">
+            <form action="consulta.php" id="form-inicio" name="index" method="post">
                 <h2>Iniciar Sesión</h2>
 
                 <label for="usuario">Usuario: </label><br>
@@ -25,12 +42,8 @@
                 <label for="clave">Contraseña: </label><br>
                 <input type="password" name="clave" id="clave"><br><br>
 
-                <div id="btn-inicio">
-                    <input type="button" value="Iniciar" id="btn" onclick="validar();">
-                </div><br>
-
-                <a href="acceso_form.php" id="link-inicio">Registrarme</a><br>
-
+                <input type="button" value="Iniciar" id="btn" onclick="validar();"><br><br>
+                
                 <?php
                 if (isset($_GET['error'])) {
                 ?>

@@ -1,5 +1,5 @@
 <?php
-include("functions/funciones.php");
+include("functions/setup.php");
 
 ?>
 <!DOCTYPE html>

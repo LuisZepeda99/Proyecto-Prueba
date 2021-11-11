@@ -106,7 +106,7 @@
                 </a>
             </div>
         </main>
-        <a href="inicio.php" id="link-volver">Volver al Inicio</a>
+        <a href="home.php" id="link-volver">Volver al Inicio</a>
     </div>
 </body>
 

@@ -15,9 +15,10 @@ if (isset($_SESSION['propietario'])) {
     <body>
         <div id="cont-principal">
             <div id="contenedor-principal" class="contenedor">
-                <h4>Bienvenido Usuario: <?php echo strtoupper($_SESSION['propietario']); ?></h4><br>
+                <h4>Bienvenido Propietario: <?php echo strtoupper($_SESSION['propietario']); ?></h4><br>
 
-                <p><a href="formulario_propietario.php">Registros</a></p>
+                <p><a href="tabla_propietarios.php">Registros</a></p>
+                <p><a href="formulario_propiedades.php">Ingresar Propiedad</a></p>
                 <p><a href="cerrar_sesion.php">Cerrar Sesión</a></p>
             </div>
         </div>

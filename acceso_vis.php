@@ -18,7 +18,8 @@ if (isset($_SESSION['administrador'])) {
                 <h4>Bienvenido Usuario: <?php echo strtoupper($_SESSION['administrador']); ?></h4><br>
 
                 <p><a href="tabla_propietarios.php">Acceso a Propietarios</a></p>
-                <p><a href="tabla_gestores.php">Acceso a Gestores</a></p>
+                <p><a href="tabla_gestores.php">Acceso a Gestores</a></p> 
+                <p><a href="formulario_propiedades.php">Ingresar Propiedad</a></p> 
                 <p><a href="cerrar_sesion.php">Cerrar Sesión</a></p>
             </div>
         </div>

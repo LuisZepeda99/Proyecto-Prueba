@@ -15,9 +15,9 @@ if (isset($_SESSION['gestor'])) {
     <body>
         <div id="cont-principal2">
             <div id="contenedor-principal2" class="contenedor">
-                <h4>Bienvenido Usuario: <?php echo strtoupper($_SESSION['gestor']); ?></h4><br>
+                <h4>Bienvenido Gestor: <?php echo strtoupper($_SESSION['gestor']); ?></h4><br>
 
-                <p><a href="formulario_gestor.php">Registros</a></p>
+                <p><a href="tabla_gestores.php">Registros</a></p>
                 <p><a href="cerrar_sesion.php">Cerrar Sesión</a></p>
             </div>
         </div>

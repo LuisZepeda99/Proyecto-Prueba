@@ -190,7 +190,7 @@ a {
 }
 
 #contenedor-acceso {
-    font-weight: 600;
+    font-weight: 700;
     padding: 100px;
     background-color: rgba(28, 96, 199, 0.822);
     padding-top: 40px;
@@ -208,7 +208,7 @@ a {
     color: white;
     float: left;
     list-style: none;
-    padding-left: 25px;
+
     margin: 20px;
     line-height: 40px;
 }

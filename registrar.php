@@ -1,7 +1,7 @@
 <?php
 
 //Conectarnos a la Base de Datos
-$con = mysqli_connect("localhost", "root", "", "pruebas");
+$con = mysqli_connect("localhost", "root", "12345678", "pruebas");
 
 date_default_timezone_set('America/Santiago');
 $fecha_hoy = date('Y-m-d');
@@ -11,4 +11,4 @@ $sql = "INSERT INTO propietarios SET rut='".$_POST['rut']."', nombre='" . $_POST
 , estado=1";
 mysqli_query($con, $sql);
 
-header('Location:tabla_propietarios.php');
+header('Location:formulario_propietario.php');

@@ -1,20 +1,4 @@
 
-function validar() {
-    if (document.inicio-f.usuario.value == "") {
-        alert("Debe Ingresar el Usuario");
-        document.inicio-f.usuario.focus();
-        return false;
-    }
-
-    if (document.inicio-f.clave.value == "") {
-        alert("Debe Ingresar la Contraseña");
-        document.inicio-f.clave.focus();
-        return false;
-    }
-
-    document.inicio-f.submit();
-}
-
 function validarGestor() {
     if (document.form1.rut.value == "") {
         alert("Debe Ingresar el Rut");
